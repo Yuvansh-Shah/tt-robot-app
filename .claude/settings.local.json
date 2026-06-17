@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(\"C:/ttrobot/node_modules/.bin/tsc\" --noEmit -p \"C:/ttrobot/tsconfig.json\")",
+      "Bash(echo \"TSC=$?\")"
+    ]
+  }
+}

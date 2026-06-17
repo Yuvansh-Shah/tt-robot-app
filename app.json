@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "TT Robot",
+    "slug": "tt-robot-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "ttrobot",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ttrobot.app"
+    },
+    "android": {
+      "package": "com.ttrobot.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#0F1115"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": false
+    }
+  }
+}
